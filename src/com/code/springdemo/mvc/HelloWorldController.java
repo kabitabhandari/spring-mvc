@@ -41,7 +41,7 @@ public class HelloWorldController {
 		String result = "Yo!"+ theName;
 		
 		// add message to model
-		model.addAttribute("message1", result); // message1 is name of message, message is in result
+		model.addAttribute("message1", result); // message1 is the model name, value is in result
 		
 		return "helloworld";
 		
